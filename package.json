@@ -1,11 +1,11 @@
 {
   "name": "google-chat-electron",
-  "version": "2.20.0",
+  "version": "2.21.0",
   "description": "Unofficial desktop app for Google Chat.",
   "private": true,
-  "repository": "https://github.com/ankurk91/google-chat-electron",
-  "homepage": "https://github.com/ankurk91/google-chat-electron",
-  "author": "ankurk91",
+  "repository": "https://github.com/lpla/google-chat-electron",
+  "homepage": "https://github.com/lpla/google-chat-electron",
+  "author": "lpla",
   "license": "GNU GPLv3",
   "main": "lib/main/index.js",
   "scripts": {
