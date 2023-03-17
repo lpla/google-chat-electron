@@ -1,36 +1,23 @@
 # Desktop app for Google Chat
 
-[![latest-tag](https://badgen.net/github/release/ankurk91/google-chat-electron)](https://github.com/ankurk91/google-chat-electron/releases)
-[![downloads](https://img.shields.io/github/downloads/ankurk91/google-chat-electron/total?cacheSeconds=3600)](https://somsubhra.github.io/github-release-stats/?username=ankurk91&repository=google-chat-electron&page=1&per_page=30)
-[![homebrew](https://badgen.net/homebrew/cask/dy/google-chat-electron)](https://formulae.brew.sh/cask/google-chat-electron)
-[![chocolatey](https://img.shields.io/chocolatey/dt/unofficial-Google-Chat-Electron?color=blue&label=chocolatey)](https://community.chocolatey.org/packages/unofficial-Google-Chat-Electron)
-[![release-linux](https://github.com/ankurk91/google-chat-electron/actions/workflows/release-linux.yml/badge.svg)](https://github.com/ankurk91/google-chat-electron/actions/workflows/release-linux.yml)
-[![release-mac](https://github.com/ankurk91/google-chat-electron/actions/workflows/release-mac.yml/badge.svg)](https://github.com/ankurk91/google-chat-electron/actions/workflows/release-mac.yml)
-[![release-windows](https://github.com/ankurk91/google-chat-electron/actions/workflows/release-windows.yml/badge.svg)](https://github.com/ankurk91/google-chat-electron/actions/workflows/release-windows.yml)
+[![latest-tag](https://badgen.net/github/release/lpla/google-chat-electron)](https://github.com/lpla/google-chat-electron/releases)
+[![downloads](https://img.shields.io/github/downloads/lpla/google-chat-electron/total?cacheSeconds=3600)](https://somsubhra.github.io/github-release-stats/?username=lpla&repository=google-chat-electron&page=1&per_page=30)
+[![release-linux](https://github.com/lpla/google-chat-electron/actions/workflows/release-linux.yml/badge.svg)](https://github.com/lpla/google-chat-electron/actions/workflows/release-linux.yml)
+[![release-mac](https://github.com/lpla/google-chat-electron/actions/workflows/release-mac.yml/badge.svg)](https://github.com/lpla/google-chat-electron/actions/workflows/release-mac.yml)
+[![release-windows](https://github.com/lpla/google-chat-electron/actions/workflows/release-windows.yml/badge.svg)](https://github.com/lpla/google-chat-electron/actions/workflows/release-windows.yml)
 
 An unofficial desktop app for [Google Chat](http://chat.google.com) built with [Electron](https://www.electronjs.org)
 
-## Announcement
-
-This app is no longer maintained. Reasons:
-
-* My employer has moved to Slack
-* It takes lots of time to build and test on all the platforms.
-* Google is blocking 3rd party apps to log-in, see [#52](https://github.com/ankurk91/google-chat-electron/issues/52)
-
-:mega: Since version 2.17, we have removed support for snap package on Linux
-
 ### Motivation
 
-* Google has [shutdown](https://support.google.com/chat/answer/10194711) the official Google Chat Desktop App in March
-  2021
-* Google is forcing users to use PWA which has less features
-* You don't want to install Chrome; just to use a PWA. :wink:
+* Google has [shutdown](https://support.google.com/chat/answer/10194711) the official Google Chat Desktop App in March 2021
+* Google is forcing users to use PWA, which has less features
+* You don't want to install Chrome just to use a PWA. :wink:
 
 ### Installation (Debian based Linux)
 
 * You can download the latest debian installer from
-  [releases](https://github.com/ankurk91/google-chat-electron/releases/latest) section
+  [releases](https://github.com/lpla/google-chat-electron/releases/latest) section
 * Install the debian package with this command: (correct the file path yourself)
 
 ```bash
@@ -50,15 +37,7 @@ sudo apt-get remove --purge google-chat-electron
 
 ### Installation (Mac)
 
-* Homebrew users can run
-
-```bash
-brew install --cask --no-quarantine google-chat-electron
-```
-
-or
-
-* Download the zip (darwin) file from [releases](https://github.com/ankurk91/google-chat-electron/releases/latest)
+* Download the zip (darwin) file from [releases](https://github.com/lpla/google-chat-electron/releases/latest)
 * Extract the zip file
 * Move the app to your `~/Applications` folder
 * Fix the permission issue with this command
@@ -78,19 +57,8 @@ sudo xattr -rd com.apple.quarantine ~/Applications/google-chat-electron.app
 
 * :warning: This app is **NOT** available
   on [Windows App Store](https://apps.microsoft.com/store/detail/gchat-for-desktop/9MZXBPL66066)
-* You can install this app by [downloading](https://github.com/ankurk91/google-chat-electron/releases/latest) the
+* You can install this app by [downloading](https://github.com/lpla/google-chat-electron/releases/latest) the
   installer
-* If you prefer [chocolatey](https://chocolatey.org/) on Windows, you can run:
-
-```powershell
-choco install unofficial-google-chat-electron
-```
-
-* If you prefer [winget-cli](https://github.com/microsoft/winget-cli) on Windows 10+, you can run:
-
-```bash
-winget install --id=ankurk91.GoogleChatElectron  -e
-```
 
 ### Installation (Fedora/RHEL/CentOS)
 
@@ -99,7 +67,7 @@ We don't provide installers for Fedora/RHEL/CentOS, but you can build a local RP
 ```bash
 sudo dnf install rpm-build npm
 curl -fsSL https://get.pnpm.io/install.sh | sh -
-git clone https://github.com/ankurk91/google-chat-electron.git
+git clone https://github.com/lpla/google-chat-electron.git
 cd google-chat-electron
 
 pnpm install
@@ -142,7 +110,7 @@ The app should work on all x64 and Apple arm64 platforms, but due to lack of tim
 
 * [@robyf](https://github.com/robyf/google-chat-linux) for the initial work
 * [@squalou](https://github.com/squalou/google-chat-linux) for enhancements
-* All past [contributors](https://github.com/ankurk91/google-chat-electron/graphs/contributors)
+* All past [contributors](https://github.com/lpla/google-chat-electron/graphs/contributors)
 
 ## Disclaimer
 
