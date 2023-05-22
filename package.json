@@ -33,7 +33,7 @@
     "@types/throttle-debounce": "^5.0.0",
     "electron": "^23.1.4",
     "electron-packager": "^17.1.1",
-    "rimraf": "^4.4.0",
+    "rimraf": "^5.0.1",
     "typescript": "^5.0.2"
   },
   "dependencies": {
